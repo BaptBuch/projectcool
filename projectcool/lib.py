@@ -13,6 +13,9 @@ def try_me():
         webbrowser.open(
             'https://www.thisworldthesedays.com/super-cool-project.html')
 
+def to_be_tested():
+    return True
 
 if __name__ == "__main__":
     try_me()
+    to_be_tested()
